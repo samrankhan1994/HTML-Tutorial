@@ -1,0 +1,69 @@
+p,h1{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(214, 21, 21);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+img{text-shadow: 10px;}
+h1{
+    font-size: 300%;
+    text-align: center;
+}
+
+address {background-color: #aaaaaa;}
+
+nav ul li a{
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    background-color: tomato;
+ }
+ nav ul li a:hover{background-color: seagreen;}
+ nav ul li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    }
+    nav ul{
+        text-align: center;
+        list-style-type: none;
+    }
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 1em;
+}
+
+tr:hover{
+    background-color: tomato;
+}
+
+tfoot{
+    background-color: #aaaaaa;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#city{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+#city #london{
+    background-color: antiquewhite;
+}
+#city #oslo{
+    background-color: rgb(232, 60, 206);
+}
+#city #rome{
+    background-color: rgb(97, 220, 161);
+}
+
+#city div{
+    padding: 1em;
+}
+
